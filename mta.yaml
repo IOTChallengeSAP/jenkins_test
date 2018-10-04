@@ -18,7 +18,6 @@ modules:
    properties: 
       UPSTREAM_LINK: "http://registry.npmjs.org"
       SAPUPSTREAM_LINK: "https://npm.sap.com"
-	
 resources:
  - name: uaa_jenkins_test
    parameters:
