@@ -4,6 +4,7 @@ import com.sap.piper.Utils
 import com.sap.piper.ConfigurationLoader
 import com.sap.piper.ConfigurationMerger
 
+npm config set @sap:registry https://npm.sap.com
 /**
  *	Copyright (c) 2017 SAP SE or an SAP affiliate company.  All rights reserved.
  * s
