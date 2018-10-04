@@ -1,0 +1,9 @@
+ID: jenkins_test
+_schema-version: '3.1'
+version: 0.0.1
+
+modules:
+  - name: di-local-npm-registry
+    properties:
+      UPSTREAM_LINK: "http://registry.npmjs.org"
+      SAPUPSTREAM_LINK: "https://npm.sap.com"
