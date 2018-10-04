@@ -60,7 +60,7 @@ node() {
 
   stage("Build Fiori App"){
   
-withNPM(npmrcConfig: 'MyNpmrcConfig') {
+withNPM(npmrcConfig: '9738be07-2024-41ab-9c6d-39da40529735') {
     sh 'npm install'
 }
     dir(SRC){
