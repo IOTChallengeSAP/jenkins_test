@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/jenkins-html5/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/jenkins-html5/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}
