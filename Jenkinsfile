@@ -61,12 +61,13 @@ node() {
   stage("Build Fiori App"){
   
 withNPM(npmrcConfig: '9738be07-2024-41ab-9c6d-39da40529735') {
-    sh 'npm install'
-}
+ 
+
     dir(SRC){
       withEnv(["http_proxy=${proxy}", "https_proxy=${httpsProxy}"]) {
         MTAR_FILE_PATH = mtaBuild script: this, mtaJarLocation: MTA_JAR_LOCATION, buildTarget: 'NEO'
       }
+    }
     }
   }
   
